@@ -1,0 +1,431 @@
+2015-12-06 21:49:57 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-06 23:04:22 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-06 23:04:30 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-06 23:04:32 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-06 23:05:33 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-06 23:05:56 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 09:26:01 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 09:46:26 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 09:49:49 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 10:03:19 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php, line 375]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Controller\Controller::__set() - CORE/src/Controller/Controller.php, line 375
+App\Controller\AccountsController::login() - APP/Controller/AccountsController.php, line 58
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 10:41:06 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Layout/login.ctp, line 1]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Layout/login.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 10:41:06 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Element/seo.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Element/seo.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1308
+Cake\View\View::element() - CORE/src/View/View.php, line 485
+include - APP/Template/Layout/login.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 10:41:06 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Element/seo.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Element/seo.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1308
+Cake\View\View::element() - CORE/src/View/View.php, line 485
+include - APP/Template/Layout/login.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 10:41:06 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Element/seo.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Element/seo.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1308
+Cake\View\View::element() - CORE/src/View/View.php, line 485
+include - APP/Template/Layout/login.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 16:35:12 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Layout/default.ctp, line 1]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Layout/default.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 322
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 194
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 173
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 157
+[main] - [internal], line ??
+
+
+
+2015-12-07 16:35:12 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Element/seo.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Element/seo.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1308
+Cake\View\View::element() - CORE/src/View/View.php, line 485
+include - APP/Template/Layout/default.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 322
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 194
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 173
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 157
+[main] - [internal], line ??
+
+
+
+2015-12-07 16:35:12 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Element/seo.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Element/seo.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1308
+Cake\View\View::element() - CORE/src/View/View.php, line 485
+include - APP/Template/Layout/default.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 322
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 194
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 173
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 157
+[main] - [internal], line ??
+
+
+
+2015-12-07 20:50:42 Notice: Notice (8): Uninitialized string offset: 0 in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\View\Helper\UrlHelper::assetUrl() - CORE/src/View/Helper/UrlHelper.php, line 66
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 440
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 429
+include - APP/Template/Layout/login.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 20:51:17 Notice: Notice (8): Uninitialized string offset: 0 in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\View\Helper\UrlHelper::assetUrl() - CORE/src/View/Helper/UrlHelper.php, line 66
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 440
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 429
+include - APP/Template/Layout/login.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 20:51:20 Notice: Notice (8): Uninitialized string offset: 0 in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\View\Helper\UrlHelper::assetUrl() - CORE/src/View/Helper/UrlHelper.php, line 66
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 440
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 429
+include - APP/Template/Layout/login.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 20:51:23 Notice: Notice (8): Uninitialized string offset: 0 in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\View\Helper\UrlHelper::assetUrl() - CORE/src/View/Helper/UrlHelper.php, line 66
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 440
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 429
+include - APP/Template/Layout/login.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 20:51:30 Notice: Notice (8): Uninitialized string offset: 0 in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\View\Helper\UrlHelper::assetUrl() - CORE/src/View/Helper/UrlHelper.php, line 66
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 440
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 429
+include - APP/Template/Layout/login.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 20:51:49 Notice: Notice (8): Uninitialized string offset: 0 in [/Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\View\Helper\UrlHelper::assetUrl() - CORE/src/View/Helper/UrlHelper.php, line 66
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 440
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 429
+include - APP/Template/Layout/login.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 22:48:53 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Layout/default.ctp, line 1]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Layout/default.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 322
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 194
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 173
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 157
+[main] - [internal], line ??
+
+
+
+2015-12-07 22:48:53 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Element/seo.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Element/seo.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1308
+Cake\View\View::element() - CORE/src/View/View.php, line 485
+include - APP/Template/Layout/default.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 322
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 194
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 173
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 157
+[main] - [internal], line ??
+
+
+
+2015-12-07 22:48:53 Notice: Notice (8): Undefined variable: _request_params in [/Users/xingshanghe/workspaces/poplus/src/Template/Element/seo.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+include - APP/Template/Element/seo.ctp, line 12
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1308
+Cake\View\View::element() - CORE/src/View/View.php, line 485
+include - APP/Template/Layout/default.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 625
+Cake\View\View::render() - CORE/src/View/View.php, line 584
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 322
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 194
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 173
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 157
+[main] - [internal], line ??
+
+
+

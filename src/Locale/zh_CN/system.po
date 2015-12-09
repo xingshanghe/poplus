@@ -1,0 +1,2 @@
+msgid "&#169; 2015 ChengDu,Sichuan,China,All Rights Reserved"
+msgstr "&#169; 2015 中国四川成都,版权所有"

@@ -1,0 +1,1008 @@
+2015-12-05 23:53:29 Error: [Cake\Network\Exception\NotFoundException] Not Found
+Request URL: /
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(971): include()
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/Users/xingshan...', Array)
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/Users/xingshan...')
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render('home', NULL)
+#4 /Users/xingshanghe/workspaces/poplus/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#5 [internal function]: App\Controller\PagesController->display('home')
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#9 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-12-05 23:53:55 Error: [Cake\Network\Exception\NotFoundException] Not Found
+Request URL: /
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(971): include()
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/Users/xingshan...', Array)
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/Users/xingshan...')
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render('home', NULL)
+#4 /Users/xingshanghe/workspaces/poplus/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#5 [internal function]: App\Controller\PagesController->display('home')
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#9 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-12-06 00:04:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Home could not be found.
+Exception Attributes: array (
+  'class' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-06 00:15:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Home could not be found.
+Exception Attributes: array (
+  'class' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-06 00:18:47 Warning: Warning (2): Missing argument 1 for App\Controller\HomeController::index() in [/Users/xingshanghe/workspaces/poplus/src/Controller/HomeController.php, line 19]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\HomeController::index() - APP/Controller/HomeController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-06 00:18:47 Error: [Cake\View\Exception\MissingTemplateException] Template file "Home/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Home/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(576): Cake\View\View->_getViewFileName(NULL)
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#4 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-06 00:20:12 Warning: Warning (2): Missing argument 1 for App\Controller\HomeController::index() in [/Users/xingshanghe/workspaces/poplus/src/Controller/HomeController.php, line 19]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\HomeController::index() - APP/Controller/HomeController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-06 21:09:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-06 21:26:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-06 21:26:47 Error: [Cake\Controller\Exception\MissingActionException] Action UserController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /user
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UserController))
+#2 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-06 21:27:07 Error: [Cake\Core\Exception\Exception] Authentication adapter "Poplus" was not found.
+Request URL: /user
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(694): Cake\Controller\Component\AuthComponent->constructAuthenticate()
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(292): Cake\Controller\Component\AuthComponent->_getUser()
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UserController))
+#9 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-12-06 21:28:02 Error: [Cake\Core\Exception\Exception] Authentication adapter "passwordHasher" was not found.
+Request URL: /user
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(694): Cake\Controller\Component\AuthComponent->constructAuthenticate()
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(292): Cake\Controller\Component\AuthComponent->_getUser()
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UserController))
+#9 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-12-06 21:28:17 Error: [Cake\Core\Exception\Exception] Authentication adapter "Poplus" was not found.
+Request URL: /user
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(694): Cake\Controller\Component\AuthComponent->constructAuthenticate()
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(292): Cake\Controller\Component\AuthComponent->_getUser()
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(258): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(385): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(495): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UserController))
+#9 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-12-06 21:29:05 Warning: Warning (2): Missing argument 1 for App\Controller\UserController::index() in [/Users/xingshanghe/workspaces/poplus/src/Controller/UserController.php, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UserController::index() - APP/Controller/UserController.php, line 20
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-06 21:29:05 Error: [Cake\View\Exception\MissingTemplateException] Template file "User/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'User/index.ctp',
+)
+Request URL: /user
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(576): Cake\View\View->_getViewFileName(NULL)
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UserController))
+#4 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-06 21:30:46 Error: [Cake\Controller\Exception\MissingActionException] Action AccountsController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'AccountsController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#2 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-06 21:48:13 Error: [Cake\Controller\Exception\MissingActionException] Action AccountsController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'AccountsController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#2 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-06 21:48:16 Error: [Cake\Controller\Exception\MissingActionException] Action AccountsController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'AccountsController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#2 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-06 21:48:38 Error: [Cake\View\Exception\MissingTemplateException] Template file "Accounts/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Accounts/login.ctp',
+)
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(576): Cake\View\View->_getViewFileName(NULL)
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#4 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-06 21:49:57 Error: [Cake\View\Exception\MissingLayoutException] Layout file "Layout/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layout/login.ctp',
+)
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(607): Cake\View\View->_getLayoutFileName('login')
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'login')
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#5 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-06 23:05:56 Error: [Cake\View\Exception\MissingLayoutException] Layout file "Layout/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layout/login.ctp',
+)
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(607): Cake\View\View->_getLayoutFileName('login')
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'login')
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#5 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-07 09:26:01 Error: [Cake\View\Exception\MissingLayoutException] Layout file "Layout/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layout/login.ctp',
+)
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(607): Cake\View\View->_getLayoutFileName('login')
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'login')
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#5 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-07 15:37:43 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:37:43 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:37:45 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:37:45 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:37:46 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:37:47 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:38:21 Error: [InvalidArgumentException] A non-empty PSR-4 prefix must end with a namespace separator.
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/src/Controller/PoplusController.php(28): Composer\Autoload\ClassLoader->addPsr4('_poplus_functio...', '/Users/xingshan...')
+#1 /Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php(23): App\Controller\PoplusController->initialize()
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(262): App\Controller\AccountsController->initialize()
+#3 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(50): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#9 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#10 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#11 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2015-12-07 15:39:02 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:39:02 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:39:23 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:39:23 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:39:24 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:39:24 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:39:26 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:39:26 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:39:50 Error: [InvalidArgumentException] A non-empty PSR-4 prefix must end with a namespace separator.
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/src/Controller/PoplusController.php(28): Composer\Autoload\ClassLoader->addPsr4('App', '/Users/xingshan...')
+#1 /Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php(23): App\Controller\PoplusController->initialize()
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(262): App\Controller\AccountsController->initialize()
+#3 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(50): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#9 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#10 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#11 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2015-12-07 15:41:19 Error: [InvalidArgumentException] A non-empty PSR-4 prefix must end with a namespace separator.
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/src/Controller/PoplusController.php(28): Composer\Autoload\ClassLoader->addPsr4('\\App', '/Users/xingshan...')
+#1 /Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php(23): App\Controller\PoplusController->initialize()
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(262): App\Controller\AccountsController->initialize()
+#3 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(50): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#9 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#10 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#11 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2015-12-07 15:41:20 Error: [InvalidArgumentException] A non-empty PSR-4 prefix must end with a namespace separator.
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/src/Controller/PoplusController.php(28): Composer\Autoload\ClassLoader->addPsr4('\\App', '/Users/xingshan...')
+#1 /Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php(23): App\Controller\PoplusController->initialize()
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(262): App\Controller\AccountsController->initialize()
+#3 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(50): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#9 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#10 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#11 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2015-12-07 15:41:22 Error: [InvalidArgumentException] A non-empty PSR-4 prefix must end with a namespace separator.
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/src/Controller/PoplusController.php(28): Composer\Autoload\ClassLoader->addPsr4('\\App', '/Users/xingshan...')
+#1 /Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php(23): App\Controller\PoplusController->initialize()
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(262): App\Controller\AccountsController->initialize()
+#3 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Accounts')
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(50): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#9 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#10 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#11 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2015-12-07 15:42:34 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:42:34 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:42:37 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:42:37 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:42:39 Error: Fatal Error (1): Call to undefined function App\Controller\test() in [/Users/xingshanghe/workspaces/poplus/src/Controller/AccountsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-07 15:42:39 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\test()
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/Users/xingshan...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-07 15:44:23 Warning: Warning (2): require(/Users/xingshanghe/workspaces/poplus/src//functions.php): failed to open stream: No such file or directory in [/Users/xingshanghe/workspaces/poplus/src/Controller/PoplusController.php, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\PoplusController::initialize() - APP/Controller/PoplusController.php, line 25
+App\Controller\PoplusController::initialize() - APP/Controller/PoplusController.php, line 25
+App\Controller\AccountsController::initialize() - APP/Controller/AccountsController.php, line 23
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 91
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 15:44:28 Warning: Warning (2): require(/Users/xingshanghe/workspaces/poplus/src//functions.php): failed to open stream: No such file or directory in [/Users/xingshanghe/workspaces/poplus/src/Controller/PoplusController.php, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\PoplusController::initialize() - APP/Controller/PoplusController.php, line 25
+App\Controller\PoplusController::initialize() - APP/Controller/PoplusController.php, line 25
+App\Controller\AccountsController::initialize() - APP/Controller/AccountsController.php, line 23
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 91
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-12-07 16:35:12 Error: [Cake\View\Exception\MissingElementException] Element/sidebar/popular_topics.ctp
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/src/Template/Layout/login.ctp(21): Cake\View\View->element('sidebar/popular...')
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(971): include('/Users/xingshan...')
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/Users/xingshan...', Array)
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(625): Cake\View\View->_render('/Users/xingshan...')
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'login')
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#8 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-12-07 16:37:31 Error: [Cake\View\Exception\MissingElementException] Element/sidebar/popular_topics.ctp
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/src/Template/Layout/login.ctp(21): Cake\View\View->element('sidebar/popular...')
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(971): include('/Users/xingshan...')
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/Users/xingshan...', Array)
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(625): Cake\View\View->_render('/Users/xingshan...')
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'login')
+#5 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#8 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-12-07 16:42:03 Error: [Cake\View\Exception\MissingElementException] Element/footer/up-footer.ctp
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/src/Template/Element/footer.ctp(1): Cake\View\View->element('footer/up-foote...')
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(971): include('/Users/xingshan...')
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/Users/xingshan...', Array)
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(1308): Cake\View\View->_render('/Users/xingshan...', Array)
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(485): Cake\View\View->_renderElement('/Users/xingshan...', Array, Array)
+#5 /Users/xingshanghe/workspaces/poplus/src/Template/Layout/login.ctp(21): Cake\View\View->element('footer')
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(971): include('/Users/xingshan...')
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/Users/xingshan...', Array)
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(625): Cake\View\View->_render('/Users/xingshan...')
+#9 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'login')
+#10 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#11 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#12 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#13 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-12-07 20:45:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:50:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/.css
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:50:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/.css
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/.css
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/.css
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/.css
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/.css
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/.css
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:51:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:52:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:52:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:53:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:53:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:54:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:56:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:58:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 20:59:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class DebugKit could not be found.
+Exception Attributes: array (
+  'class' => 'DebugKit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 21:56:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /images/logo
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 21:59:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /images/logo
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 22:01:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /images/logo
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-07 22:48:53 Error: [Cake\View\Exception\MissingElementException] Element/header/container.ctp
+Request URL: /accounts/login
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/src/Template/Element/header.ctp(4): Cake\View\View->element('header/containe...')
+#1 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(971): include('/Users/xingshan...')
+#2 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/Users/xingshan...', Array)
+#3 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(1308): Cake\View\View->_render('/Users/xingshan...', Array)
+#4 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(485): Cake\View\View->_renderElement('/Users/xingshan...', Array, Array)
+#5 /Users/xingshanghe/workspaces/poplus/src/Template/Layout/login.ctp(27): Cake\View\View->element('header')
+#6 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(971): include('/Users/xingshan...')
+#7 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/Users/xingshan...', Array)
+#8 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(625): Cake\View\View->_render('/Users/xingshan...')
+#9 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'login')
+#10 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#11 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#12 /Users/xingshanghe/workspaces/poplus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AccountsController))
+#13 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-12-08 15:42:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/font.css?family=Open+Sans%3A300
+Stack Trace:
+#0 /Users/xingshanghe/workspaces/poplus/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
