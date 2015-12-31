@@ -81,6 +81,11 @@
 }
 
 @media (max-width: 991px) {
+	
+	div#container {
+    	padding-top: 95px;
+		
+	}
 
 	.navbar-default .navbar-nav > li {
 		margin-left: 18px;
@@ -89,6 +94,7 @@
 
 	.navbar-default .navbar-nav > li > a {
 		font-size: 13px;
+		padding:16px 0;
 		padding-right: 0!important;
 	}
 
@@ -107,6 +113,10 @@
 
 	.modern_medium_light {
 		width: 200px;
+	}
+	
+	.navbar > .search-widget {
+	    padding: 8px;
 	}
 
 	ul.device-list {
@@ -195,19 +205,15 @@
 }
 
 @media (max-width: 767px) {
+	#content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
 	#container {
 	    padding-top: 95px;
 	}
-	.top-line p {
-		float: none;
-		text-align: center;
-		margin-bottom: 10px;
-	}
 
-	ul.social-icons {
-		float: none;
-		text-align: center;
-	}
 
 	.navbar {
 		background: rgb(255,255,255) !important;
@@ -216,9 +222,15 @@
 	.navbar-brand {
 		padding: 5px 15px;
 	}
-
+	
+	.navbar > .search-widget{
+		float:none;
+	}
+	.container > .navbar-collapse{
+		float:none;
+	}
+	
 	.navbar-toggle {
-		margin-top: 25px;
 	}
 
 	.navbar-default .navbar-nav > li > a {
@@ -274,7 +286,7 @@
 		background: none;
 		text-transform: capitalize;
 		border: none;
-		color: #7d7d7d;
+		color: #333333;
 		padding: 3px 0;
 	}
 
@@ -363,6 +375,11 @@
 
 @media (max-width: 581px) {
 	
+	#content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
 	#container {
 	    padding-top: 95px;
 	}
@@ -386,6 +403,14 @@
 		margin-right: 0 !important;
 		font-size: 12px !important;
 		line-height: 18px !important;
+	}
+	
+	.navbar > .search-widget{
+		float:none;
+	}
+	
+	.container > .navbar-collapse{
+		float:none;
 	}
 
 	.top-bar {

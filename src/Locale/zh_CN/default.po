@@ -1,2 +1,4 @@
 msgid "Hello"
 msgstr "你好"
+msgid "Search"
+msgstr "搜索"

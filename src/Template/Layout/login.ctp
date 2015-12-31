@@ -24,25 +24,49 @@
 </head>
 <body>
 	<div id="container">
-		<?= $this->Flash->render(); ?>
 		<header class="clearfix"><?= $this->element('header'); ?></header>
 		<div id="content" class="clearfix"><?= $this->fetch('content'); ?></div>
 		<footer><?= $this->element('footer'); ?></footer>
 	</div>
-	<?= $this->fetch('script_final') ?>
 	
 	<?= $this->Html->script([
 	    'jquery-1.11.3.min.js',
 	    'jquery.migrate.js',
+	    'jquery.cookie.js',
 	    'bootstrap.js',
 	    'retina-1.1.0.min.js',
 	    'plugins-scroll.js',
-	    'script.js'
+	    'script.js',
+	    'layer/layer.js',
+	    'poplus.js',
+	    'http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js'
 	]); ?>
 	
 	<!--[if lt IE 9]>
 		<?= $this->Html->script('html5.js'); ?>
 	<![endif]-->
+	
+	<?= $this->fetch('script_final') ?>
+	
+	<?php 
+	   $_auth_msg = $this->Flash->render('auth');
+	   if ($_auth_msg){
+	       $_auth_msg_arr = json_decode($_auth_msg,true);
+	       //$_auth_msg_arr  msg,type,code
+	       if (json_last_error() == JSON_ERROR_NONE){
+	?>
+	<script type="text/javascript">
+		layer.msg("<?= $_auth_msg_arr['msg'] ?>", function(){
+		//关闭后的操作
+		});
+	</script>	
+	<?php        
+	       }
+	   }
+	?>
+	<script type="text/javascript">
+		$('#current_city').html(remote_ip_info['city']);
+	</script>
 	
 </body>
 </html>

@@ -3,8 +3,8 @@
     	<div class="row">
     		<div class="col-md-8">
     			<div class="login">
-					<h3>帐号注册</h3>
-					<form class="login-form">
+					<h3>会员登陆</h3>
+					<form class="login-form" action="" method="post" enctype="application/x-www-form-urlencoded">
 						<div class="row">
 							<div class="col-md-8">
 								<input type="text" name="username" placeholder="用户名/邮箱/手机号">	
@@ -13,11 +13,6 @@
 							</div>
 							<div class="col-md-8">
 								<input type="password" name="password" placeholder="密码">
-							</div>
-							<div class="col-md-4 hidden-xs hidden-sm">
-							</div>
-							<div class="col-md-8">
-								<input type="password" name="password1" placeholder="确认密码">
 							</div>
 							<div class="col-md-4 hidden-xs hidden-sm">
 							</div>

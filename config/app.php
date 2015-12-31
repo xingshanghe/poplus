@@ -215,6 +215,7 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'nonstandard_port_number',
+            'prefix' => 'ps_',
             'username' => 'root',
             'password' => '123456',
             'database' => 'poplus',
